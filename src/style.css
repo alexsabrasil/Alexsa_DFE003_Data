@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://images.ecency.com/p/Kz4AvTzHkfLswrT3QihP6WH1PRJGbHWwtq8K6FRvL2WcXyQrpVyJyeDJ8fQDN7Txvm1ed8GnLi99caiJb5Ni4382CZw82eMUs9xz8pSYV5r6yi7JsMWvXTd2iZbK9gaoBA8pgPnZ1ncy3bRBHZYpPZ2gzcC4WNuysiKSaPc4XHMqLtdxtTnAayEVpdwH3FGGXVUy4CJ1VhmW2TEr4.png?format=match&mode=fit);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 400px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+}
+
+th, td {
+    display: block;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
