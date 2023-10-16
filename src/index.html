@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="short icon" href="#">
+    <title>Beatles Songs</title>
     <link rel="stylesheet" href="style.css">
-    <title>Data::Personagens de Star Wars</title>
 </head>
 
 <body>
-    <h1>Personagens de Star Wars</h1>
-    <button onclick="exibirDados()">Exibir Personagens</button>
-    <div style="overflow-x:auto;">
-        <table id="tabela">
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Altura</th>
-                    <th>Peso</th>
-                    <th>Imagem</th> <!-- Nova coluna para a imagem -->
-                </tr>
-            </thead>
-            <tbody id="corpo-tabela">
-            </tbody>
-        </table>
+    <h1>Beatles Songs</h1>
+    <div class="song-cards">
+        <!-- Aqui os cartões de música serão gerados dinamicamente pelo JavaScript -->
     </div>
-
+    <footer class="footer">
+        &copy; 2023 Desenvolvido por Alexsandra Silva.
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/alexsatecnolog/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/alexsabrasil" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://replit.com/@alexsabrasil" target="_blank" rel="noopener noreferrer">
+            <img src="https://storage.googleapis.com/replit/images/1695677448083_04a9896f890b965926ea49455992e033.png" alt="Replit"  class="replit-icon"  width="20">
+            </a>
+        </div>
+    </footer>
     <script src="./main.js"></script>
 </body>
-
 </html>

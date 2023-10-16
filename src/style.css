@@ -1,33 +1,114 @@
 body {
-    background-image: url(https://images.ecency.com/p/Kz4AvTzHkfLswrT3QihP6WH1PRJGbHWwtq8K6FRvL2WcXyQrpVyJyeDJ8fQDN7Txvm1ed8GnLi99caiJb5Ni4382CZw82eMUs9xz8pSYV5r6yi7JsMWvXTd2iZbK9gaoBA8pgPnZ1ncy3bRBHZYpPZ2gzcC4WNuysiKSaPc4XHMqLtdxtTnAayEVpdwH3FGGXVUy4CJ1VhmW2TEr4.png?format=match&mode=fit);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 400px;
+    font-family: Arial, sans-serif;
+    background-color: darkslateblue;
+    text-align: center;
 }
 
-table {
-    border-collapse: collapse;
+h1 {
+    margin: 20px;
+    color: #fff;
+}
+
+.song-card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 10px solid#fff;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #0a0202;
+    
+}
+
+.song-card:hover .song-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+
+.song-card-front img {
+    width: 100%; /* Aumento do tamanho da imagem */
+    height: 100%; /* Aumento do tamanho da imagem */
+}
+
+.song-card-inner {
     width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
 }
 
-th {
-    background-color: #f2f2f2;
+.song-card-front, .song-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-    table {
-        border-collapse: collapse;
-        width: 100%;
-    }
+.song-card-front {
+    background-color: #f0f0f0;
 }
 
-th, td {
-    display: block;
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+.song-card-back {
+    background-color: #130222;
+    transform: rotateY(180deg);
+    color: #fff;
 }
 
-th {
-    background-color: #f2f2f2;
+/* Diminuir o tamanho do texto nos cards */
+.song-card h2 {
+    font-size: 18px; /* Tamanho da fonte para o título */
 }
+
+.song-card-back ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-card-back ul li {
+    font-size: 12px; /* Tamanho da fonte para as faixas */
+    margin-bottom: 5px;
+}
+
+/* Estilos para o rodapé (footer) */
+.footer {
+    text-align: center;
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* Estilos para os ícones das redes sociais no rodapé */
+.social-icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d4cece;
+    font-size: 20px;
+    margin-right: 8px;
+    transition: color 0.3s; /* Efeito de transição suave */
+}
+
+.social-icons a:hover {
+    color: #adada8; /* Cor ao passar o mouse sobre o ícone do LinkedIn */
+}
+
+.replit-icon {
+    transition: transform 0.3s; /* Efeito de transição suave */
+    margin-right: 10px;
+}
+
+.replit-icon:hover {
+    transform: scale(1.2); /* Aumentar a escala da imagem ao passar o mouse sobre ela */
+}
+
+
+
