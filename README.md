@@ -51,6 +51,22 @@ O que deve ser feito:
 ## Dicas
 
 - Certifique-se de estar com a sua maquina configurada de acordo com as aulas vistas anteriormente.
+  
+***
 
+### Desafio Data [Concluído]
 
+Pude praticar
+- Escolhi o Tema: Beatles Songs
+- Exibi os Dados na interface grafica, estilizando com o flip cards
+- Inclui o footer e minhas redes sociais estilizando os cards e ícones 
+- Uso de variáveis e constantes 
+- Uso dos comandos do git: `git add` `git commit` `git pull` `git push`
+- Gerenciamento do repositório do GitHub (clone e fork)
+- Uso do HTML semântico.
+- Uso dos seletores de CSS.
+- Uso dos seletores de DOM.
+- Gerenciamento dos eventos de DOM.
+
+![desafio-data](https://github.com/alexsabrasil/atividade-petshop/assets/113733583/73ffd6a0-d622-466e-9ad9-67f8ac8d3457)
 
